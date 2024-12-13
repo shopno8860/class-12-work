@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+.w-50{
+    width: 20%;
+    height: 100px;
+
+}
+header{
+    background-color: #daac00;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: #fff;
+    font-family: Poppins-Medium;
+    font-size: 29.17 px;
+}
+.menu ul li a:hover{
+    color: #00bec9;
+}
+.search-area .input-group input[type=text]{
+    background-color: #fcc302;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    outline: none;
+}
+
+.search-area .input-group input[type=text]::placeholder{
+    color: #fff;
+}
+.search-area .input-group button{
+    background-color: #00bec9;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+.slider-area{
+    background-color: #fcc302;
+}
+.slider-area h2{
+    font-family: Poppins-SemiBold;
+    font-size: 55px;
+}
+.slider-area p{
+    font-family: Poppins-Regular;
+    font-size: 22px;
+}
+.slider-area button{
+    font-family: Poppins-SemiBold;
+    
+}
+.mybutton1{
+    border:2px solid #00bec9;
+    background-color: #00bec9;
+}
+.mybutton1:hover{
+    background-color: #daac00;
+}
+.mybutton2{
+    border:2px solid #fff;
+}
+.mybutton2:hover{
+    background-color: #daac00;
+}
+.mybutton3{
+    border:2px solid #fff;
+    background-color:#fcc302 ;
+}
+.mybutton3:hover{
+    background-color: #00bec9;
+    transition: 0.5s;
+}
+.love-pet{
+    background-color: #fff;
+    margin: 50px 0;
+    h2{
+        font-family: Poppins-SemiBold;
+        font-size: 40px;
+    }
+    p{
+        font-family: Poppins-Regular;
+        font-size: 22px;
+    }
+    button{
+        font-family: Poppins-SemiBold;
+        font-size: 18px;
+    }
+    .img-box{
+        background-image: linear-gradient(rgba(252, 195, 2, 0.5), rgba(252, 195, 2, 0.5)), url('images/pet with men.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90%; 
+        width: 70%;
+         margin: 120px auto;
+         z-index: 1;
+         position: relative;
+    }
+    .img-box-2{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 100px;
+        margin-top: -300px;
+        margin-left: 115px;
+        background-color: #fcc302;
+        
+
+    }
+    .img-container{
+        background-image: linear-gradient(rgba(252, 195, 2, 0.5), rgba(252, 195, 2, 0.5)), url('images/pet-2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90%; 
+        width: 70%;
+         margin: 120px auto;
+         z-index: 1;
+         position: relative;
+    }
+    .img-box-3{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 100px;
+        margin-top: 135px;
+        margin-left: 140px;
+        background-color: #fcc302;
+    }
+   
+}
+.service{
+    background-color: #fcc302;
+    padding: 50px 0px;
+    .service-description{
+        width: 60%;
+        h2{
+            font-family: Poppins-Bold;
+            font-size: 60px;
+        }
+        p{
+            font-family: Poppins-Regular;
+            font-size: 16px;
+        }
+
+        
+    }
+    .card{
+        border:none;
+        background: none;
+        color: #fff;
+        h3{
+            font-family: Poppins-SemiBold;
+            font-size: 30px;
+            padding-top: 15px;
+        }
+        p{
+            font-family: Poppins-Regular;
+            font-size: 16px;
+        }
+    }
+}
+.service-2{
+    .button4{
+        padding: 5px 55px;
+        font-family: Poppins-SemiBold;
+        background-color: #00bec9;
+        border:none;
+        font-size: 16px;
+        border-radius: 50px ;
+        margin: 20px 0px;
+    }
+}
+.doctors{
+    background-color: #fff;
+    .card{
+        border:none;
+        background: none;
+        color: black;
+        h3{
+            font-family: Poppins-SemiBold;
+            font-size: 22px;
+            padding-top: 15px;
+        }
+        p{
+            font-family: Poppins-Regular;
+            font-size: 16px;
+        }
+        .icon{
+            background-color: #daac00;
+            padding: 4px 6px;
+            border-radius: 50%;
+            color: #fff;
+        }
+    }
+   
+}
+.client{
+    background-image: linear-gradient(rgba(252, 195, 2, 0.5), rgba(252, 195, 2, 0.5)), url('images/bg-image.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    margin: 30px 0px;
+    .card{
+        border:none;
+        background: none;
+        h4{
+            font-family: Poppins-SemiBold;
+            font-size: 22px;
+            padding-top: 15px;
+            
+        }
+        p{
+            font-family: Poppins-SemiBold;
+            font-size: 22px;
+        }
+       
+    }
+}
+.review{
+    background-color: #fff;
+    
+    .card{
+        border:none;
+        background: none;
+        color: black;
+        h4{
+            font-family: Poppins-SemiBold;
+            font-size: 10px;
+            padding-top: 15px;
+            
+        }
+        p{
+            font-family: Poppins-SemiBold;
+            font-size: 10px;
+        }
+        .date{
+            color: #00bec9;
+        }
+        a{
+            text-decoration: none;
+        }
+       
+    }
+}
+footer{
+    background: black;
+    padding: 80px 0px;
+    color: white;
+    font-family: Poppins-Regular;
+    h4{
+        color: white;
+        font-family: Poppins-SemiBold;
+    }
+    p{
+        font-size: 12px;
+
+    }
+    ul{
+        
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+            a:hover{
+                color: #00bec9;
+            }
+        }
+    }
+     input[type=text]{
+        background-color: #fcc302;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        outline: none;
+        padding: 15px 0;
+    }
+    .input-group button{
+        background-color: #00bec9;
+        color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 0;
+    }
+    .f-icons{
+        .icon{
+            background-color: #fff;
+            padding: 4px 6px;
+            border-radius: 50%;
+            color:black;
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
